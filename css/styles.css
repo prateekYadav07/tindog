@@ -14,13 +14,22 @@ h2{
   font-size: 3rem;
 }
 
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* Title section */
+
 .section-title{
   background-color: #ff4c68;
   color: white;
 }
 
 .container-fluid{
-  padding: 3% 15% 0;
+  padding: 3% 15% 7%;
 
 }
 
@@ -55,13 +64,32 @@ h2{
 }
 
 .title-image{
-  width: 60%;
-  transform: rotate(30deg);
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
 }
+
+@media (max-width:1028px) {
+
+    .section-title{
+      text-align: center;
+    }
+
+    .title-image{
+      width: 50%;
+      position: static;
+      z-index: 0;
+      transform: rotate(0deg);
+    }
+}
+
 
 /* Features */
 .section-features{
+  background-color: white;
   padding: 7% 15%;
+  position:relative;
+  z-index: 1;
 }
 
 .features-column{
@@ -128,4 +156,26 @@ h2{
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* call to action */
+
+.call-to-action{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+.footer{
+  text-align: center;
+  padding: 3% 7%;
+  font-size: 1rem;
+}
+
+.footer-button{
+  padding:3% 10px 3%;
+  color: #ff4c68;
 }
