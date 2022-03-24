@@ -63,7 +63,11 @@ h2{
 }
 
 @media (max-width:1028px) {
-
+    
+    .nav-item{
+      text-align: right;
+    }
+    
     .section-title{
       text-align: center;
     }
