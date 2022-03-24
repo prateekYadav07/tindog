@@ -14,13 +14,6 @@ h2{
   font-size: 3rem;
 }
 
-h3{
-  font-family: "Montserrat";
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 3.5rem;
-}
-
 /* Title section */
 
 .section-title{
@@ -167,6 +160,12 @@ h3{
   padding: 7% 15%;
 }
 
+.cta-h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
 /* Footer */
 
 .footer{
